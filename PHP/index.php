@@ -45,7 +45,8 @@
     //Verifico se Mario Rossi è maggiorenne 
     if ($array_3["eta"] >= 18) { 
         echo "Utente Maggiorenne";
-    } else {
+    } 
+    else {
         echo "Utente Minorenne";
     }
 
@@ -83,4 +84,5 @@
     else:
         echo "Condizione falsa";
     endif;
+
 ?>
